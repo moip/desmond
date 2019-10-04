@@ -2,26 +2,27 @@
 
 > _See Ya In Anotha Life, Brotha!_
 
-1. What is Desmond?
-2. How does it work?
-3. How to use it?
-4. How can I contribute?
-5. How can I report a bug or ask for a new feature?
+1. O que é o Desmond?
+2. Como funciona?
+3. Como utilizar?
+4. Como posso contribuir?
+5. Como posso reportar um bug ou solicitar uma nova funcionalidade?
 
-# 1. What is Desmond?
-Desmond is a Kotlin library to generate and verify check digits of multiple Brazilian services, such as bank account numbers.
+# 1. O que é o Desmond?
+Desmond é uma lib desenvolvida em Kotlin para gerar e validar digitos verificadores de serviços brasileiros, como contas bancárias.
 
-# 2. How does it work?
-The library works by generating a valid check digit based on official documentation on how they are generated.
-The verification process first generates the digit based on the given information and compares with the check digit provided when calling the method.
+# 2. Como funciona?
+A lib gera um digito verificador válido, a partir da documentação oficial dos digitos verificadores de cada serviço.
+O sistema de verificação primeiro gera um digito válido a partir das informações enviadas no método, e compara com o digito verificador enviado via parametro quando solicitado.
 
-# 3. How to use it?
-Coming soon.
+# 3. Como utilizar?
+Em breve.
 
-# 4. How can I contribute?
-Check [CONTRIBUTING.md](CONTRIBUTING.md)
+# 4. Como posso contribuir?
+Instruções de contribuição em: [CONTRIBUTING.md](CONTRIBUTING.md) (em inglês).
 
-# 5. How can I report a bug or ask for a new feature?
-To report a bug or ask for a new feature, open a new Issue. Make sure there is no Issue open for the bug you're reporting or the feature you're requesting.
+# 5. Como posso reportar um bug ou solicitar uma nova funcionalidade?
+Para reportar um bug ou solicitar uma nova funcionalidade, abra um novo Issue. Verifique se não existe nenhum issue aberto para o bug ou funcionalidade que você está solicitando.
 
-When opening a new Issue, fill in the [Issue Template](.github/ISSUE_TEMPLATE.md).
+Quando for abrir um issue, use o [Template de Issues](.github/ISSUE_TEMPLADE.md), que é sugerido automaticamente quando um novo issue é criado.
+
